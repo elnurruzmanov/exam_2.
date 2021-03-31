@@ -232,6 +232,7 @@ body {
     text-align: center;
     text-decoration-line: underline;
     color: #00BAFC;
+    transition:0.3s;
 }
 
 .last-link {
@@ -259,6 +260,15 @@ body {
 
 .section-last-link:hover {
     text-decoration-line: underline;
+}
+
+.link-link:hover{
+    color: #00BAFC;
+    text-decoration:underline;
+}
+
+.link-link{
+    text-decoration: none;
 }
 
 .main .container {
@@ -558,13 +568,12 @@ body {
 
 .section-footer .container {
     display: flex;
-    justify-content: space-between;
-
     padding: 56px 0;
 }
 
 .section-footer-copyright {
     width: 30%;
+    margin-right: 30px;
 }
 
 .footer-info {
@@ -591,6 +600,11 @@ body {
 .section-footer-site {
     display: flex;
     flex-direction: column;
+    margin-left:50px;
+}
+
+.section-footer-internet{
+    margin-left: 60px;
 }
 
 .footer-site {
@@ -661,12 +675,7 @@ body {
         width:900px;
     }
 
-    .section-page-text{
-        width:650px;
-    }
-
     .main-page-text{
-        width:650px;
     }
 
     .main-information{
@@ -680,12 +689,10 @@ body {
     }
 
     .information-info{
-        width: 650px;
         text-align: center;
     }
 
     .information-text{
-        width:650px;
         text-align: center;
     }
 
@@ -702,12 +709,10 @@ body {
     }
 
     .second-info{
-        width: 650px;
         text-align: center;
     }
 
     .second-text{
-        width:650px;
         text-align: center;
     }
 
@@ -740,12 +745,10 @@ body {
     }
 
     .project-info{
-        width: 650px;
         text-align: center;
     }
 
     .project-text{
-        width:650px;
         text-align: center;
     }
 
@@ -764,12 +767,10 @@ body {
     }
 
     .job-info{
-        width: 650px;
         text-align: center;
     }
 
     .job-text{
-        width:650px;
         text-align: center;
     }
 
@@ -802,12 +803,10 @@ body {
     }
 
     .support-info{
-        width: 650px;
         text-align: center;
     }
 
     .support-text{
-        width:650px;
         text-align: center;
     }
 
@@ -823,7 +822,7 @@ body {
     }
 
     .section-sidebar-text{
-        width:550px;
+        text-align:center;
     }
 
     .footer-link{
@@ -891,12 +890,12 @@ body {
     }
 
     .header-title-paragraph{
-        width:550px;
+        text-align:center;
         text-align: center;
     }
 
     .header-title-text{
-        width:550px;
+        text-align:center;
         text-align:center;
     }
 
@@ -904,7 +903,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width:550px;
+        text-align:center;
     }
 
   
@@ -928,6 +927,13 @@ body {
     .section-item{
         width:40%;
     }
+
+    .main-second-info{
+        width:70%;
+    }
+
+    
+
 }
 
 @media(max-width:720px){
@@ -936,30 +942,59 @@ body {
     }
 
     .section-page-text{
-        width:550px;
+        text-align:center;
     }
 
     .main-page-text{
-        width:550px;
+        text-align:center;
     }
 
     .information-text{
-        width:550px;
+        text-align:center;
     }
     
     .second-text{
-        width:550px;
+        text-align:center;
     }
 
     .project-text{
-        width: 550px;
+        text-align:center;
     }
 
     .support-text{
-        width: 550px;
+        text-align:center;
     }
 
     .job-text{
-        width:550px;
+        text-align:center;
     }
+
+    .section-container{
+        padding-bottom: 0;
+    }
+
+    .main-information{
+        width:70%;
+        align-items: center;
+    }
+
+    .main-second{
+        width:70%;
+        align-items: center;
+    }
+    .main-project{
+        width:70%;
+        align-items: center;
+    }
+
+    .main-job{
+        width:70%;
+        align-items: center;
+    }
+
+    .main-support{
+        width:70%;
+        align-items: center;
+    }
+    
 }
